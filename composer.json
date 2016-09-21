@@ -1,0 +1,26 @@
+{
+    "name": "croud/helpers",
+    "description": "Croud helper functions",
+    "license": "MIT",
+    "homepage": "https://www.croud.com",
+    "authors": [
+        {
+            "name": "John Main",
+            "email": "john.main@croud.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.2",
+        "illuminate/database": "~5.2",
+    },
+    "autoload": {
+        "psr-4": {
+            "Croud\\Helper\\" : "src"
+        },
+        "files": [
+            "src/Helper/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
